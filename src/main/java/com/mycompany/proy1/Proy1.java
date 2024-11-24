@@ -17,7 +17,7 @@ public class Proy1 {
         int numero = scanner.nextInt();
 
         // Generar la tabla de multiplicar desde 0 hasta 12
-        System.out.println("La tabla del numero " + numero + "es:");
+        System.out.println("La tabla del numero " + numero + " del 0 al 12es:");
         for (int i = 0; i <= 12; i++) {
             System.out.println(numero + " * " + i + " = " + (numero * i));
         }
